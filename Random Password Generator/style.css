@@ -1,0 +1,56 @@
+body{
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    height: 100vh;
+    background-color: bisque;
+}
+
+nav{
+    background-color: rgb(126, 156, 156);
+    height: 40px;
+    text-align: center;
+}
+
+.logo{
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+}
+
+span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(13, 93, 124);
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+main .btn{
+    margin: 20px 0;
+    height: 40px;
+    width: 100px;
+    border: 1px solid rgb(13, 93, 124);
+    border-radius: 20px;
+    background-color: bisque;
+    color: rgb(13, 93, 124);
+}
+
+main .btn:hover{
+    color: white;
+    background-color: rgb(126, 156, 156);
+}
+
+button{
+    cursor: pointer;
+}
