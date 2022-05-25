@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: gainsboro;
+    height: 100vh;
+}
+
+nav{
+    background-color: rgb(184, 11, 34);
+    height: 70px;
+    text-align: center;
+}
+
+nav span{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.logo{
+    margin: 16.5px 0;
+    cursor: pointer;
+}
+
+main p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container .items{
+    flex-basis: 20%;
+    height: 350px;
+}
+
+.item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 1px rgb(184, 11, 34);
+}
+
+.item p{
+    font-size: 0.4rem;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.item{
+    text-align: center;
+}
+
+.fa{
+    cursor: pointer;
+    color: rgb(184, 11, 34);
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+.cart{
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.btn{
+    position: absolute;
+    display: block;
+    background-color: gainsboro;
+    border: solid 1px rgb(184, 11, 34);
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
